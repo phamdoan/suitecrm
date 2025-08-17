@@ -1,0 +1,9 @@
+/cache/
+/custom/history/
+/upload/
+/config_override.php
+/suitecrm.log
+*.log
+*.zip
+*.tar.gz
+
