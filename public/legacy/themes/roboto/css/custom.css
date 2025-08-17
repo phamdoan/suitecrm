@@ -1,0 +1,20 @@
+/* public/themes/custom.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+:root, html, body, #app-root, .app {
+  font-family: 'Roboto', Arial, sans-serif !important;
+}
+
+.app, .app * {
+  font-family: inherit !important;
+}
+
+html, body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class*="btn"], [class*="navbar"], [class*="menu"], [class*="title"],
+h1, h2, h3, h4, h5, h6, label, input, select, textarea, button, table, th, td, code, pre {
+  font-family: 'Roboto', Arial, sans-serif !important;
+}
