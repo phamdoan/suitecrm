@@ -1,5 +1,5 @@
 <?php
-// created: 2025-08-14 13:35:59
+// created: 2025-08-23 13:29:30
 $sugar_config = array (
   'addAjaxBannedModules' => 
   array (
@@ -134,13 +134,14 @@ $sugar_config = array (
     'autofree' => false,
     'debug' => 0,
     'ssl' => false,
+    'collation' => 'utf8mb3_bin',
   ),
   'default_action' => 'index',
   'default_charset' => NULL,
-  'default_currency_iso4217' => 'USD',
-  'default_currency_name' => 'US Dollar',
+  'default_currency_iso4217' => 'VND',
+  'default_currency_name' => 'VND',
   'default_currency_significant_digits' => '2',
-  'default_currency_symbol' => '$',
+  'default_currency_symbol' => 'đ',
   'default_date_format' => 'Y-m-d',
   'default_decimal_seperator' => '.',
   'default_email_charset' => 'UTF-8',
@@ -148,7 +149,7 @@ $sugar_config = array (
   'default_email_editor' => 'html',
   'default_export_charset' => 'ISO-8859-1',
   'default_language' => 'en_us',
-  'default_locale_name_format' => 's f l',
+  'default_locale_name_format' => 'f l',
   'default_max_tabs' => 8,
   'default_module' => 'Home',
   'default_module_access' => 
@@ -257,6 +258,7 @@ $sugar_config = array (
   'languages' => 
   array (
     'en_us' => 'English (US)',
+    'vi_VN' => 'Tiếng Việt (Vietnamese) - vi_VN',
   ),
   'large_scale_test' => false,
   'lead_conv_activity_opt' => 'donothing',
