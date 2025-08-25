@@ -50,7 +50,7 @@ $themedef = array(
     'version' => array(
         'regex_matches' => array('.+'),
     ),
-	'parentTheme' => 'SuiteP',
+	'parentTheme' => 'suite8',
     'group_tabs' => true,
     'classic' => true,
     'configurable' => true,
